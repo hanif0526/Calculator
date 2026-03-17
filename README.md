@@ -1,5 +1,5 @@
-# Calculator
-
-<h1>SIMPLE CALCULATOR</h1><br>
-<h2>git clone https://github.com/hanif0526/calculator</h2>
-<h2>python app.py</h2>
+<h1 style="color:blue;">SIMPLE CALCULATOR</h1><br>
+<ol>
+  <li>git clone https://github.com/hanif0526/calculator</li>
+  <li>python app.py</li>
+</ol>

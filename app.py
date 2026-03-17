@@ -1,3 +1,8 @@
+red = "\033[31m"
+yellow = "\033[32m"
+reset = "\033[0m"
+blue = "\033[34m"
+
 def add(a,b):
     return a+b
     
@@ -10,12 +15,12 @@ def minus(a,b):
 def divide(a,b):
     return a/b
     
-print("\nChoose + × - : ")
+print(f"{blue}\nChoose + × - : {reset}")
 
-choice = input("\nEnter your choice : ")
+choice = input(f"{red}\nEnter your choice : {reset}")
 
-num1 = float(input("Enter your first number : "))
-num2 = float(input("Enter your second number : "))
+num1 = float(input(f"{yellow}Enter your first number : {reset}"))
+num2 = float(input(f"{yellow}Enter your second number : {reset}"))
 
 if choice == "+":
     print(f"Result : {add(num1,num2)}")
